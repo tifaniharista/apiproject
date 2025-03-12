@@ -1,0 +1,155 @@
+[2025-03-12 13:25:10] local.ERROR: Command "make:migrate" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:migrate\" is not defined.
+
+Did you mean one of these?
+    make:cache-table
+    make:cast
+    make:channel
+    make:class
+    make:command
+    make:component
+    make:controller
+    make:enum
+    make:event
+    make:exception
+    make:factory
+    make:interface
+    make:job
+    make:job-middleware
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:notifications-table
+    make:observer
+    make:policy
+    make:provider
+    make:queue-batches-table
+    make:queue-failed-table
+    make:queue-table
+    make:request
+    make:resource
+    make:rule
+    make:scope
+    make:seeder
+    make:session-table
+    make:test
+    make:trait
+    make:view at C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php:726)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(284): Symfony\\Component\\Console\\Application->find('make:migrate')
+#1 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(193): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\api\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#5 {main}
+"} 
+[2025-03-12 14:23:39] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\laragon\www\api\bootstrap\cache\serEE3.tmp,C:\laragon\www\api\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\laragon\\www\\api\\bootstrap\\cache\\serEE3.tmp,C:\\laragon\\www\\api\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-9abd86d674d0ba851f4ac7b31349196a.php:33)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-9abd86d674d0ba851f4ac7b31349196a.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
+[2025-03-12 14:23:39] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\laragon\www\api\bootstrap\cache\serEF2.tmp,C:\laragon\www\api\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\laragon\\www\\api\\bootstrap\\cache\\serEF2.tmp,C:\\laragon\\www\\api\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-7563160ca998bde672640aa1e68dfd08.php:33)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-7563160ca998bde672640aa1e68dfd08.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
+[2025-03-12 14:23:39] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\laragon\www\api\bootstrap\cache\serEF3.tmp,C:\laragon\www\api\bootstrap\cache\services.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\laragon\\www\\api\\bootstrap\\cache\\serEF3.tmp,C:\\laragon\\www\\api\\bootstrap\\cache\\services.php): Access is denied (code: 5) at C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-e44b5232bcf576a239429ce709524a49.php:33)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-e44b5232bcf576a239429ce709524a49.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
+[2025-03-12 14:35:03] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\laragon\www\api\bootstrap\cache\pac7CDE.tmp,C:\laragon\www\api\bootstrap\cache\packages.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\laragon\\www\\api\\bootstrap\\cache\\pac7CDE.tmp,C:\\laragon\\www\\api\\bootstrap\\cache\\packages.php): Access is denied (code: 5) at C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-67043687ec5f16a5c4357b3dc049d2d5.php:33)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-67043687ec5f16a5c4357b3dc049d2d5.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
+[2025-03-12 14:35:03] local.ERROR: __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\laragon\www\api\bootstrap\cache\ser7D4E.tmp,C:\laragon\www\api\bootstrap\cache/services.php): Access is denied (code: 5) {"exception":"[object] (Error(code: 0): __VSCODE_LARAVEL_STARTUP_ERROR__: rename(C:\\laragon\\www\\api\\bootstrap\\cache\\ser7D4E.tmp,C:\\laragon\\www\\api\\bootstrap\\cache/services.php): Access is denied (code: 5) at C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-e44b5232bcf576a239429ce709524a49.php:33)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\_laravel_ide\\discover-e44b5232bcf576a239429ce709524a49.php(62): LaravelVsCode::startupError(Object(ErrorException))
+#1 {main}
+"} 
+[2025-03-12 15:00:44] local.ERROR: Too many arguments to "make:controller" command, expected arguments "name". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments to \"make:controller\" command, expected arguments \"name\". at C:\\laragon\\www\\api\\vendor\\symfony\\console\\Input\\ArgvInput.php:199)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Input\\ArgvInput.php(92): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('\\xE2\\x80\\x93api')
+#1 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Input\\ArgvInput.php(77): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken('\\xE2\\x80\\x93api', true)
+#2 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Input\\Input.php(53): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#3 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Command\\Command.php(238): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#4 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#5 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(342): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Routing\\Console\\ControllerMakeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(193): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 C:\\laragon\\www\\api\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#11 {main}
+"} 
+[2025-03-12 15:14:36] local.ERROR: Skipping unknown App\Http\Requests\AddressRequest {"exception":"[object] (ErrorException(code: 0): Skipping unknown App\\Http\\Requests\\AddressRequest at C:\\laragon\\www\\api\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php:23)
+[stacktrace]
+#0 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(256): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(512, 'Skipping unknow...', 'C:\\\\laragon\\\\www\\\\...', 23)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(512, 'Skipping unknow...', 'C:\\\\laragon\\\\www\\\\...', 23)
+#2 C:\\laragon\\www\\api\\vendor\\zircote\\swagger-php\\src\\Loggers\\DefaultLogger.php(23): trigger_error('Skipping unknow...', 512)
+#3 C:\\laragon\\www\\api\\vendor\\psr\\log\\src\\LoggerTrait.php(61): OpenApi\\Loggers\\DefaultLogger->log('warning', 'Skipping unknow...', Array)
+#4 C:\\laragon\\www\\api\\vendor\\zircote\\swagger-php\\src\\Analysers\\ReflectionAnalyser.php(87): Psr\\Log\\AbstractLogger->warning('Skipping unknow...')
+#5 C:\\laragon\\www\\api\\vendor\\zircote\\swagger-php\\src\\Analysers\\ReflectionAnalyser.php(61): OpenApi\\Analysers\\ReflectionAnalyser->analyzeFqdn('App\\\\Http\\\\Reques...', Object(OpenApi\\Analysis), Array)
+#6 C:\\laragon\\www\\api\\vendor\\zircote\\swagger-php\\src\\Generator.php(393): OpenApi\\Analysers\\ReflectionAnalyser->fromFile('C:\\\\laragon\\\\www\\\\...', Object(OpenApi\\Context))
+#7 C:\\laragon\\www\\api\\vendor\\zircote\\swagger-php\\src\\Generator.php(356): OpenApi\\Generator->scanSources(Object(Symfony\\Component\\Finder\\Finder), Object(OpenApi\\Analysis), Object(OpenApi\\Context))
+#8 C:\\laragon\\www\\api\\vendor\\darkaonline\\l5-swagger\\src\\Generator.php(177): OpenApi\\Generator->generate(Object(Symfony\\Component\\Finder\\Finder), Object(OpenApi\\Analysis))
+#9 C:\\laragon\\www\\api\\vendor\\darkaonline\\l5-swagger\\src\\Generator.php(118): L5Swagger\\Generator->scanFilesForDocumentation()
+#10 C:\\laragon\\www\\api\\vendor\\darkaonline\\l5-swagger\\src\\Console\\GenerateDocsCommand.php(73): L5Swagger\\Generator->generateDocs()
+#11 C:\\laragon\\www\\api\\vendor\\darkaonline\\l5-swagger\\src\\Console\\GenerateDocsCommand.php(56): L5Swagger\\Console\\GenerateDocsCommand->generateDocumentation(Object(L5Swagger\\GeneratorFactory), 'default')
+#12 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(36): L5Swagger\\Console\\GenerateDocsCommand->handle(Object(L5Swagger\\GeneratorFactory))
+#13 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#14 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#15 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(754): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(213): Illuminate\\Container\\Container->call(Array)
+#18 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Command\\Command.php(279): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#19 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(182): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#20 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(1094): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#21 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(342): Symfony\\Component\\Console\\Application->doRunCommand(Object(L5Swagger\\Console\\GenerateDocsCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#22 C:\\laragon\\www\\api\\vendor\\symfony\\console\\Application.php(193): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#23 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(198): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#24 C:\\laragon\\www\\api\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1235): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#25 C:\\laragon\\www\\api\\artisan(16): Illuminate\\Foundation\\Application->handleCommand(Object(Symfony\\Component\\Console\\Input\\ArgvInput))
+#26 {main}
+"} 
